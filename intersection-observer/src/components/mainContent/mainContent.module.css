@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    align-items: center;
+    padding: 32px;
+    
+    >ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        list-style: none; 
+        gap: 16px;
+
+        >li{
+            border: 1px solid #ccc;
+            padding: 16px;
+            transition: .25s ease-in-out;
+            cursor: pointer;
+            border-radius: 8px;
+            height: 15em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            box-shadow: 5px 5px 10px rgba(196, 179, 179, 0.308) ;
+            >img{
+                width: 4em;
+                height: 4em;
+                object-fit: contain;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+        }
+        >li:hover{
+            background-color: #f0f0f021;
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+       }
+}

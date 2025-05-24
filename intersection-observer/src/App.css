@@ -1,0 +1,15 @@
+#root {
+  text-align: center;
+  width: 100dvw;
+
+  h1{
+    padding: 16px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
